@@ -21,7 +21,7 @@ export const ChatPage = () =>{
 
             //add ia response
         }catch(error){
-            console.log("no se pudo ingresa a la api")
+            console.log("no se pudo ingresa a la api, jajas")
             console.error("El error es " , error);
         }finally{
             setIsLoading(false)
